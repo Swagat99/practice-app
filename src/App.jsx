@@ -4,12 +4,10 @@ function App() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="app-container">
+    <div>
       <Header />
-      <main className="main-content">
-        <h1>Hello World</h1>
-        <p className="year-text">Current year: <strong>{currentYear}</strong></p>
-      </main>
+      <h1>Hello World</h1>
+      <p>Current year: {currentYear}</p>
     </div>
   )
 }

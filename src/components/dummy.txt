@@ -1,3 +1,7 @@
+Exercise 1: Write down three popular websites that use React and identify one "reusable" part on their homepage.
+
+Answers: Meta Products
+
 1. Facebook.com : Reusable Component: The "Post Card". This single component is reused hundreds of times down your feed, and it always contains a profile picture, the post text, a like button, and a comment section.
 2. Instagram.com : Reusable Component: The "Story Avatar". The profile picture rings at the top of the app are the exact same component reused for every single person you follow.
 3. WhatsApp Web : Reusable Component: The "Chat List Item". Every conversation preview on the left sidebar uses the same exact layout component, just passing in different data (contact name, profile picture, and latest message snippet).
